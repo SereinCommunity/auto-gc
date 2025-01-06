@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": [
+            "ESNext",
+        ],
+        "skipLibCheck": true,
+        "typeRoots": [
+            "HelperLib/src/*.ts"
+        ]
+    },
+}
