@@ -1,8 +1,17 @@
 {
     "$schema": "https://sereincommunity.github.io/json-schemas/v2/plugin-info.json",
-    "name": "JS模板",
-    "id": "template",
+    "name": "自动垃圾回收",
+    "description": "自动垃圾回收，减少内存占用",
+    "id": "auto-gc",
     "version": "1.0.0",
     "type": "js",
-    "entryFile": "index.js"
+    "entryFile": "gc.js",
+    "tags": [
+        "tool"
+    ],
+    "authors": [
+        {
+            "name": "Zaitonn"
+        }
+    ]
 }

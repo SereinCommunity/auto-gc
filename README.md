@@ -1,17 +1,6 @@
-# JsPluginTemplate
+# 自动垃圾回收
 
-Serein插件模板仓库
+>[!TIP]
+>其实这个插件也可以在v1下使用，只需将解压后的`gc.js`放在`plugins`文件夹下
 
-## 使用方法
-
-### 创建仓库
-
-1. 点击仓库右上角的`Use this template`
-2. 选择`Create a new repository`并创建仓库
-3. 编写你的插件✨
-
-### 使用源码
-
-1. 点击仓库右上角的`Code`
-2. 点击`Download ZIP`下载源码并解压
-3. 编写你的插件✨
+定时调用[`System.GC.Collect()`](https://learn.microsoft.com/zh-cn/dotnet/api/system.gc.collect?view=net-8.0)，减少内存占用
